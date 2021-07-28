@@ -27,8 +27,7 @@ class MyView: UIView {
         context.fill(rectangle1)
         
         let rectangle2 = CGRect(x: 256, y: 256, width: 128, height: 128)
-
-        context.setFillColor(UIColor.systemYellow.cgColor)
+        context.setFillColor(UIColor.cyan.cgColor)
         context.setStrokeColor(UIColor.systemBlue.cgColor)
         context.setLineWidth(10)
         context.addEllipse(in: rectangle2)
