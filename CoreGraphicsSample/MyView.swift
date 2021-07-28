@@ -17,11 +17,8 @@ class MyView: UIView {
     }
     
     override func draw(_ rect: CGRect) {
-
         guard let context = UIGraphicsGetCurrentContext() else { return }
-
         let rectangle1 = CGRect(x: 0, y: 0, width: 200, height: 180).insetBy(dx: 10, dy: 10)
-                
         context.setFillColor(UIColor.systemRed.cgColor)
         context.setStrokeColor(UIColor.systemGreen.cgColor)
         context.setLineWidth(20)
