@@ -15,6 +15,7 @@
 		311A65C826B159FD0006ADA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 311A65C626B159FD0006ADA1 /* LaunchScreen.storyboard */; };
 		311A65D326B159FE0006ADA1 /* CoreGraphicsSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311A65D226B159FE0006ADA1 /* CoreGraphicsSampleTests.swift */; };
 		311A65DE26B159FE0006ADA1 /* CoreGraphicsSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311A65DD26B159FE0006ADA1 /* CoreGraphicsSampleUITests.swift */; };
+		311A65EC26B15BCD0006ADA1 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311A65EB26B15BCD0006ADA1 /* MyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		311A65D926B159FE0006ADA1 /* CoreGraphicsSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreGraphicsSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		311A65DD26B159FE0006ADA1 /* CoreGraphicsSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphicsSampleUITests.swift; sourceTree = "<group>"; };
 		311A65DF26B159FE0006ADA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		311A65EB26B15BCD0006ADA1 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				311A65C426B159FD0006ADA1 /* Assets.xcassets */,
 				311A65C626B159FD0006ADA1 /* LaunchScreen.storyboard */,
 				311A65C926B159FD0006ADA1 /* Info.plist */,
+				311A65EB26B15BCD0006ADA1 /* MyView.swift */,
 			);
 			path = CoreGraphicsSample;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				311A65EC26B15BCD0006ADA1 /* MyView.swift in Sources */,
 				311A65C026B159FB0006ADA1 /* ViewController.swift in Sources */,
 				311A65BC26B159FB0006ADA1 /* AppDelegate.swift in Sources */,
 				311A65BE26B159FB0006ADA1 /* SceneDelegate.swift in Sources */,
